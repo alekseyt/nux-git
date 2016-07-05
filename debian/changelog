@@ -1,3 +1,10 @@
+nux (4.0.8+16.04.20160209-0ubuntu5) UNRELEASED; urgency=medium
+
+  * unity_support_test: add llvmpipe as software-rendererd (LP:
+    #1598770)
+
+ -- Marco Trevisan (Treviño) <mail@3v1n0.net>  Tue, 05 Jul 2016 12:44:49 +0200
+
 nux (4.0.8+16.04.20160209-0ubuntu4) yakkety; urgency=medium
 
   * (Build-)depend on libpng-dev.
