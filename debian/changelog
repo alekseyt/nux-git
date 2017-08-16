@@ -1,3 +1,10 @@
+nux (4.0.8+16.04.20160705-0ubuntu2) UNRELEASED; urgency=medium
+
+  * TextEntry: Make sure Ctr+{C,V,X,A} work with caps-lock on (LP:
+    #1664205)
+
+ -- Marco Trevisan (Treviño) <mail@3v1n0.net>  Tue, 04 Jul 2017 17:50:40 +0200
+
 nux (4.0.8+16.04.20160705-0ubuntu1) xenial; urgency=medium
 
   * unity_support_test: add llvmpipe as software-rendererd (LP:
