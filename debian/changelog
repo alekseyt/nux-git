@@ -1,3 +1,10 @@
+nux (4.0.8+16.04.20170816-0ubuntu2) UNRELEASED; urgency=medium
+
+  * 50_check_unity_support: only export LIBGL_ALWAYS_SOFTWARE=1 on
+    command failed (LP: #1768610)
+
+ -- Marco Trevisan (Treviño) <mail@3v1n0.net>  Wed, 13 Jun 2018 04:03:11 +0200
+
 nux (4.0.8+16.04.20170816-0ubuntu1) xenial; urgency=medium
 
   * TextEntry: Make sure Ctr+{C,V,X,A} work with caps-lock on (LP:
