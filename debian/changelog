@@ -1,11 +1,11 @@
-nux (4.0.8+16.04.20170816-0ubuntu2) UNRELEASED; urgency=medium
+nux (4.0.8+16.04.20180613.1-0ubuntu1) xenial; urgency=medium
 
   * debian/50_check_unity_support:
     - various changes to fix (LP: #1768610):
       + export LIBGL_ALWAYS_SOFTWARE=1 only on command failure
       + run only when called inside an unity session
 
- -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Wed, 13 Jun 2018 03:35:45 +0200
+ -- Marco Trevisan (Treviño) <mail@3v1n0.net>  Wed, 13 Jun 2018 12:21:21 +0000
 
 nux (4.0.8+16.04.20170816-0ubuntu1) xenial; urgency=medium
 
