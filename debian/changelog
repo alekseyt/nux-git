@@ -1,11 +1,23 @@
 nux (4.0.8+16.04.20170816-0ubuntu2) UNRELEASED; urgency=medium
 
-  * 50_check_unity_support: only export LIBGL_ALWAYS_SOFTWARE=1 on
-    command failed (LP: #1768610)
-  * 50_check_unity_support: only run when called from an unity session
-    (LP: #1768610)
+  * debian/50_check_unity_support:
+    - renamed to X11-check-unity-support
+  * debian/X11-check-unity-support:
+    - various changes to fix (LP: #1768610):
+      + export LIBGL_ALWAYS_SOFTWARE=1 only on command failure
+      + run only when called inside an unity session
+    - install in /usr/lib/nux so that is not considered
+      a conffile anymore
+  * debian/nux-tools.links:
+    - create a symlink to X11-check-unity-support in
+      /etc/X11/Xsession.d (as 50check-unity-support)
+  * debian/nux-tools.maintscript:
+    - remove /etc/X11/Xsession.d/50_check_unity_support
+      conffile on install
+  * debian: don't consider the Xsession.d script as a config file
+    anymore
 
- -- Marco Trevisan (Treviño) <mail@3v1n0.net>  Wed, 13 Jun 2018 04:03:11 +0200
+ -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Wed, 13 Jun 2018 03:35:45 +0200
 
 nux (4.0.8+16.04.20170816-0ubuntu1) xenial; urgency=medium
 
